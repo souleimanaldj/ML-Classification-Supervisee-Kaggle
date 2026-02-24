@@ -1,1 +1,1 @@
-# ML | Classification Supervisée (Kaggle)}
+# ML | Classification Supervisée (Kaggle)
