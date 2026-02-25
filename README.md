@@ -1,1 +1,5 @@
 # ML | Classification Supervisée (Kaggle)
+
+This project focuses on applying a complete machine learning workflow to a real dataset. It begins with extensive data preparation: handling missing values, creating indicators for missingness, clipping extreme observations, and applying logarithmic transformations to stabilize distributions. Categorical variables are standardized and encoded, while numerical variables are imputed using mean values and integrated into a preprocessing pipeline. 
+
+After preprocessing, the dataset is split into explanatory variables and the target variable. A classification model based on gradient boosting (XGBoost) is then trained. The hyperparameters are optimized using Optuna with cross-validation to improve predictive performance and avoid overfitting. The final tuned model is fitted on the training data and used to generate probability predictions on the test dataset, producing a submission file. Overall, the project demonstrates the full pipeline of practical data science: cleaning, feature engineering, model selection, optimization, and evaluation.
